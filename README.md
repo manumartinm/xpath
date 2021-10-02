@@ -44,11 +44,11 @@
 
 ### Links
 
-//a[@rel="nofollow"] 
+//count(a[@rel="nofollow"])
 
-//a[starts-with(@href, 'mydomain.com')]
+//count(a[starts-with(@href, 'mydomain.com')])
 
-//a[not(starts-with(@href, 'mydomain.com'))]
+//count(a[not(starts-with(@href, 'mydomain.com'))])
 
 ### GSC Verification
 
