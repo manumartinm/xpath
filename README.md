@@ -82,8 +82,6 @@
 
 //*[@itemprop='description']/@content
 
-Extract Text
-
 ## Others
 
 ### DonDominio scrape available domains
