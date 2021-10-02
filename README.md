@@ -90,11 +90,11 @@
 
 ### Extract email
 
-//a[starts-with(@href, 'mailto')]
+//a[starts-with(@href, 'mailto')]/@href
 
 ### Extract phone
 
-//a[starts-with(@href, 'tel')]
+//a[starts-with(@href, 'tel')]/@href
 
 ## Interesting Articles
 
