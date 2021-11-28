@@ -42,6 +42,10 @@
 
 //*[@itemtype]/@itemtype
 
+### Images without Alt
+
+//img[not(@alt)]/@src
+
 ### Links
 
 //count(a[@rel="nofollow"])
@@ -57,6 +61,8 @@
 ### GTM Verification
 
 //iframe[contains(@src, 'https://www.googletagmanager.com/')]/@src
+
+//script[contains(@src, 'googletagmanager.com/gtm.js?id=')]/@src
 
 ## Youtube
 
@@ -84,7 +90,7 @@
 
 ## Others
 
-### DonDominio scrape available domains
+### Scrape available domains from DonDominio
 
 //div[contains(@class, 'domainsearch-available')]/div[1]
 
@@ -96,6 +102,10 @@
 
 //a[starts-with(@href, 'tel')]/@href
 
+### Tag Contains certain text
+
+//tagname[text()='text']
+
 ## Interesting Articles
 
 1. [Xpath Cheatsheet](https://devhints.io/xpat)
@@ -105,3 +115,4 @@
 5. [Scrape the SERPS with SF](https://www.screamingfrog.co.uk/how-to-scrape-google-search-features-using-xpath/)
 6. [Xpath in Google Sheets](https://dataingovernment.blog.gov.uk/2015/12/22/scraping-page-data-using-importxml-in-google-sheets/)
 7. [Xpath Cheatseet Miguel Pau](https://www.miguelpau.es/home/-/blogs/xpath-para-seo-cheat-sheet-y-guia-de-uso)
+8. [Xpath for Ecommerce](https://salt.agency/blog/how-to-easily-map-product-redirects-in-ecommerce-migrations/)
