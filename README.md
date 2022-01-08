@@ -14,9 +14,10 @@
 
 ...
 
-### Obtain the meta description
+### Meta description
 
 //meta[@name='description']/@content
+
 
 ## Obtain Viewport
 
@@ -109,10 +110,11 @@
 ## Interesting Articles
 
 1. [Xpath Cheatsheet](https://devhints.io/xpat)
-2. [Xpath Function](https://developer.mozilla.org/es/docs/Web/XPath/Functions)
-3. [Xpath in SF](https://www.pmg.com/blog/how-to-use-xpath-in-screaming-frog/)
-4. [LaikaTeam Xpath Guide](https://laikateam.com/blog/expresiones-xpath-seo/)
-5. [Scrape the SERPS with SF](https://www.screamingfrog.co.uk/how-to-scrape-google-search-features-using-xpath/)
-6. [Xpath in Google Sheets](https://dataingovernment.blog.gov.uk/2015/12/22/scraping-page-data-using-importxml-in-google-sheets/)
-7. [Xpath Cheatseet Miguel Pau](https://www.miguelpau.es/home/-/blogs/xpath-para-seo-cheat-sheet-y-guia-de-uso)
-8. [Xpath for Ecommerce](https://salt.agency/blog/how-to-easily-map-product-redirects-in-ecommerce-migrations/)
+2. [Xpath Functions](http://dh.obdurodon.org/functions.xhtml)
+3. [Xpath Function](https://developer.mozilla.org/es/docs/Web/XPath/Functions)
+4. [Xpath in SF](https://www.pmg.com/blog/how-to-use-xpath-in-screaming-frog/)
+5. [LaikaTeam Xpath Guide](https://laikateam.com/blog/expresiones-xpath-seo/)
+6. [Scrape the SERPS with SF](https://www.screamingfrog.co.uk/how-to-scrape-google-search-features-using-xpath/)
+7. [Xpath in Google Sheets](https://dataingovernment.blog.gov.uk/2015/12/22/scraping-page-data-using-importxml-in-google-sheets/)
+8. [Xpath Cheatseet Miguel Pau](https://www.miguelpau.es/home/-/blogs/xpath-para-seo-cheat-sheet-y-guia-de-uso)
+9. [Xpath for Ecommerce](https://salt.agency/blog/how-to-easily-map-product-redirects-in-ecommerce-migrations/)
